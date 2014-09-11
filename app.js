@@ -1,6 +1,5 @@
 $(document).ready(function() {
-	$('#add').click(function(event) {
-		event.stopPropagation();
+	$('#add').click(function() {
 		if ($('#item-name').val().length == 0) {
 			$('#error').css('display', 'block');
 		} else {
