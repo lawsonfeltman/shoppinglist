@@ -1,0 +1,99 @@
+ahtml, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*
+BEGIN LAWSON CSS
+*/
+body {
+	font-family: 'arial', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 25px;
+	color: white;
+	
+}
+input {
+	width: 66%;
+	border-radius: 15px;
+	height: 25px;
+	text-align: center;
+	margin: 15px;	
+}
+button {
+	margin: 25px;
+}
+#wrap {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+#input-column {
+	position: fixed;
+	background-color: #093AAE;
+	width: 33.33%;
+	height: 100%;
+}
+#text-wrap {
+	position: relative;
+	top: 200px;
+	left: 25px;
+}
+#list-column {
+	position: relative;
+	left: 33.33%;
+	width: 66.67%;
+	height:100%;
+}
+.list-item {
+	display: inline-block;
+	height: 20%;
+	width: 20%;
+	/*border-radius: 15px;*/
+}
+.checked-off {
+	text-decoration: line-through;
+	background-color: black !important;
+}
+#error {
+	color: red;
+}
